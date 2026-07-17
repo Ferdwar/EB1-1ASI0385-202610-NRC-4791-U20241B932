@@ -68,7 +68,7 @@ LP-EB-4791-Felipe/
 
 ## Autor
 
-Felipe Huamanchumo
+Felipe Marcelo Huamanchumo Chicchon
 
 Universidad Peruana de Ciencias Aplicadas (UPC)
 
