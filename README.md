@@ -62,10 +62,6 @@ LP-EB-4791-Felipe/
 │     └── script.js
 
 └── img/
-      ├── hero.jpg
-      ├── clasica.jpg
-      ├── bbq.jpg
-      └── doble.jpg
 ```
 
 ---
