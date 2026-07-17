@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Point</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <h2 class="logo"> <img src="assets/icons/Logo_M.png" alt="Burger Point"> Burger Point</h2>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú">☰</button>
+
+            <ul class="menu" id="menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#promociones">Promociones</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero" id="inicio">
+
+            <div class="hero-texto">
+                <h1>Las Mejores Hamburguesas Artesanales</h1>
+
+                <p>
+                    Disfruta viendo los partidos con las mejores hamburguesas de la seleccion preparadas con ingredientes frescos,
+                    deliciosos acompañamientos y bebidas para compartir.
+                </p>
+
+                <a href="#menu" class="boton">
+                    Ver Menú
+                </a>
+            </div>
+
+            <div class="hero-imagen">
+                <img src="assets/images/Hamburguesa_Dibu.jpg" alt="Hamburguesa artesanal">
+            </div>
+
+        </section>
+
+        <section class="menu-section" id="menu">
+
+            <h2>Nuestro Menú</h2>
+
+            <div class="contenedor-cards">
+
+                <article class="card">
+                    <img src="assets/images/McAllister.jpg" alt="Hamburguesa Clásica">
+                    <h3>Hamburguesa McAllister</h3>
+                    <p>
+                        Carne artesanal, queso cheddar,
+                        lechuga y tomate.
+                    </p>
+                    <h4>S/ 18.00</h4>
+                </article>
+
+                <article class="card">
+                    <img src="assets/images/McAlvarez.jpg" alt="Hamburguesa BBQ">
+                    <h3>Hamburguesa McAlvarez</h3>
+                    <p>
+                        Carne, queso cheddar,
+                        tocino y salsa BBQ.
+                    </p>
+                    <h4>S/ 22.00</h4>
+                </article>
+
+                <article class="card">
+                    <img src="assets/images/McFernandez.jpg" alt="Hamburguesa Doble">
+                    <h3>Hamburguesa McFernandez</h3>
+                    <p>
+                        Doble carne,
+                        doble queso cheddar, lechuga y tomate.
+                    </p>
+                    <h4>S/ 25.00</h4>
+                </article>
+            </div>
+        </section>
+
+        <section class="promociones" id="promociones">
+
+            <h2>Promociones</h2>
+
+            <div class="contenedor-promos">
+
+                <article class="promo">
+                    <h3>Combo Familiar</h3>
+                    <p>
+                        4 Hamburguesas +
+                        Papas +
+                        4 Bebidas
+                    </p>
+                    <strong>S/ 55</strong>
+                </article>
+
+                <article class="promo">
+                    <h3>Combo Amigos</h3>
+                    <p>
+                        2 Hamburguesas +
+                        Papas +
+                        2 Bebidas
+                    </p>
+                    <strong>S/ 40</strong>
+                </article>
+
+                <article class="promo">
+                    <h3>Combo Empresarial</h3>
+                    <p>
+                        Pedidos especiales para reuniones
+                        y eventos corporativos.
+                    </p>
+                    <strong>Consultar</strong>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="nosotros" id="nosotros">
+            <h2>Sobre Nosotros</h2>
+            <p>
+
+                Burger Point nació con el objetivo de ofrecer hamburguesas
+                artesanales elaboradas con ingredientes frescos y de alta
+                calidad. Nuestro compromiso es brindar una experiencia
+                deliciosa, rápida y accesible para todos nuestros clientes.
+
+            </p>
+        </section>
+
+        <section class="horarios">
+
+            <h2>Ubicación y Horarios</h2>
+
+            <div class="info">
+
+                <p>
+                    📍 Av. Principal 123 - Lima
+                </p>
+
+                <p>
+                    🕒 Lunes a Domingo
+                </p>
+
+                <p>
+                    11:00 am - 10:00 pm
+                </p>
+
+            </div>
+
+        </section>
+
+        <section class="contacto" id="contacto">
+
+            <h2>Contáctanos</h2>
+
+            <form id="formulario">
+
+                <input
+                    type="text"
+                    id="nombre"
+                    placeholder="Nombre completo"
+                    required>
+
+                <input
+                    type="email"
+                    id="correo"
+                    placeholder="Correo electrónico"
+                    required>
+
+                <textarea
+                    id="mensaje"
+                    placeholder="Escribe tu mensaje"
+                    rows="6"
+                    required></textarea>
+
+                <button type="submit">
+
+                    Enviar Consulta
+
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="footer-contenido">
+
+            <h3>Burger Point</h3>
+
+            <p>
+                Síguenos en nuestras redes sociales.
+            </p>
+
+            <p>
+                Facebook | Instagram | WhatsApp
+            </p>
+
+            <p>
+                © 2026 Burger Point - Todos los derechos reservados.
+            </p>
+
+        </div>
+
+    </footer>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
