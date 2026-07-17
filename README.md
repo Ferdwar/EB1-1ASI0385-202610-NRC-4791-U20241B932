@@ -38,23 +38,7 @@ La Landing Page presenta una estructura simple y organizada para facilitar la na
 - Footer.
 
 El sitio también incorpora un menú hamburguesa para dispositivos móviles y un diseño responsive mediante Media Queries.
-
 ---
-
-## Capturas de pantalla
-
-### Vista Escritorio
-
-Agregar aquí la captura de pantalla de la versión de escritorio.
-
----
-
-### Vista Móvil
-
-Agregar aquí la captura de pantalla de la versión móvil.
-
----
-
 ## Cómo ejecutar el proyecto
 
 1. Descargar o clonar el repositorio.
