@@ -37,7 +37,7 @@ La Landing Page presenta una estructura simple y organizada para facilitar la na
 - Formulario de contacto.
 - Footer.
 
-El sitio también incorpora un menú hamburguesa para dispositivos móviles y un diseño responsive mediante Media Queries.
+El sitio también incorpora un menú hamburguesa para dispositivos móviles y un diseño responsive.
 ---
 ## Cómo ejecutar el proyecto
 
